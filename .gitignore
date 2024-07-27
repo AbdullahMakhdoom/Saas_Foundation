@@ -4,4 +4,4 @@ __pycache__/
 *.pyc
 cpython/
 *.sqlite3
-
+.env
