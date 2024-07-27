@@ -8,7 +8,10 @@
 {% block content %}
     <h2>Home</h2>
     <p>Welcome to the home page!</p>
+    <p> Page visits: {{ page_visit_count }}</p>
+    <p> Total Page visits: {{ total_visit_count }}</p>
+    <p> Percent Page visits: {{ percent_vist_count }}</p>
 
     {% include 'snippets/welcome-user-message.html' %}
-    
+
 {% endblock content %}
