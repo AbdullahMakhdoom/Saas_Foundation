@@ -5,3 +5,8 @@ __pycache__/
 cpython/
 *.sqlite3
 .env
+
+#ignore vendor static files
+src/staticfiles/vendors
+
+local_cdn/
