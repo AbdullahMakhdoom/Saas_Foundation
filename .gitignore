@@ -7,6 +7,6 @@ cpython/
 .env
 
 #ignore vendor static files
-src/staticfiles/vendors
+src/staticfiles/
 
 local_cdn/

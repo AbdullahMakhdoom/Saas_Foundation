@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # local apps
+    'commando',
     'visits',
 ]
 
@@ -140,6 +141,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_BASE_DIR = BASE_DIR / "staticfiles"
+STATICFILES_BASE_DIR.mkdir(exist_ok=True, parents=True)
 STATICFILE_VENDOR_DIR = STATICFILES_BASE_DIR / "vendor"
 
 # source(s) for python manage.py collectstatic
