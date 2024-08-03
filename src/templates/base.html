@@ -9,7 +9,7 @@
 <body>
 
     {% include 'nav/nav_bar.html' %}
-    <h1>{{ page_title }}</h1>
+    {% include 'base/messages.html' with messages=messages %}
 
     {% block content %}
         
